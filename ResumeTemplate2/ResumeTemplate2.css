@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+:root{
+	--bg-clr: #660000;
+	--black: #000;
+	--white: #fff;
+	--primary-text-clr: #525252;
+}
+	
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Arrial Narrow;
+}
+	
+
+
+body{
+	background: var(--bg-clr);
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--black);
+	padding: 0 20px;
+	
+}
+
+h3{
+	font-family: 'Calligraffitti', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-family: Arrial Narrow;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+	
+.resume{
+	width: 1000px;
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	background: var(--white);
+	margin: 40px auto;
+}
+		
+.resume .resume_left{ 
+	width: 280px;
+}
+
+.resume .resume_right{
+	width: calc(1000px - 280px);
+	background:  var(--white);
+}
+
+.resume_left .r_pic{
+	width: 100%;
+	height: 280px;
+	padding: 30px;
+}
+
+			
+.resume_left .r_pic{
+background:  var(--white);
+}	
+.resume_left .r_pic img{
+	width: 80%;
+}
+
+		
+.resume_left .r_left_sub{
+	padding:40px;
+		
+}
+
+
+		
+.resume_left .r_left_sub > div:not(:last-child),
+.resume_right .r_right_sub > div:not(:last-child){
+	margin-bottom:30px;
+}
+	
+
+.resume_left .r_aboutme p{
+text-align: center;
+
+}
+
+.resume_left .r_aboutme  p:last-child {
+	font-size:15px;
+	line-height: 20px;
+
+}
+
+.resume_left .r_link ul li,
+.resumen_left .r_link ul li p:first-child{
+	display:flex;
+	align-items: center;
+}
+.resume_left .r_link ul li:not(:last-child){
+margin-bottom: 20px;
+}
+.resumen_left .r_link ul li p:first-child{
+width:30px;
+height:30px;
+background: var(--white);
+margin-right:10px;
+border-radius: 30%;
+justify-content: center;
+color: var(--white);
+font-size: 10px;
+
+}	
+
+.resume_right .r_namerole{
+	width: 100%;
+	height: 140px;
+	padding: 20px;
+	
+}
+	
+
+	
+.resume_right .r_namerole p{
+		font-family: Arrial Narrow;
+		font-size: 30px;
+		line-height: 40px;
+		text-align: center;
+		background: #660000;
+		color:var(--white);
+}
+
+.resume_right .r_namerole  p:last-child {
+	font-size:26px;
+	line-height: 35px;
+	color:  var(--white);
+	font-family: 'Calligraffitti', cursive;
+}
+
+.resume_right .r_info{
+	padding: 20px;
+	background: var(--white);
+
+	
+}
+
+.resume_right .r_info ul {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.resume_right .r_info  p{
+	font-size:23px;
+	font-weight:1000;
+	
+}
+
+
+
+
+.resume_right .r_right_sub{
+	padding: 30px;
+	padding-bottom: 0;
+}
+	
+.resume_right .r_right_sub p{
+	color:  #525252;
+}
+	
+.resume_right .r_right_sub ul li{
+	display: flex;
+	margin-bottom: 20px;
+	
+}
+
+
+	
+.resume_right .r_right_sub ul li div:first-child{
+	width: 30%;
+	margin-right: 15px;
+}
+	
+
+.resume_right .r_right_sub ul li  div:last-child{
+	width: 120%;
+}
+
+.resume_right .r_right_sub  p:first-child{
+	font-size: 17px;
+	margin-bottom: 10px;
+	
+}
